@@ -26,6 +26,7 @@ public class b2tr58 {
                 ("ngày " + array[0] + " " + "tháng " + " " + array[1] + "   năm " + " " + array[2]));
         Thread.sleep(50);
         scanner.close();
+        // jbvhjhj
     }
 
 }
