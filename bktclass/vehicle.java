@@ -124,6 +124,7 @@ public class vehicle {
                 case 2:
                     System.out.printf(" %5s %5s %5s %10s %10s %8s \n", "ma xe", "chu xe", "dung tich", "tri gia ",
                             "mo ta ", "thue");
+                    System.out.println("-------------------------------------------------------------------------");
                     for (int i = 0; i < n; i++) {
                         v[i].inthue();
                     }
