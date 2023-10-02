@@ -1,2 +1,13 @@
 {
+    "java.debug.settings.onBuildFailureProceed": true,
+    "liveServer.settings.port": 5501,
+    "java.project.sourcePaths": [
+        "oop/b7",
+        "oop/b4",
+        "oop/b3",
+        "oop/b2",
+        "bkt2",
+        "BaiKTso2",
+        "oop/test"
+    ]
 }

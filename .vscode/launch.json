@@ -1,0 +1,163 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "test1",
+            "request": "launch",
+            "mainClass": "test1",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test_thuvien.Test",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "QLThuVien",
+            "request": "launch",
+            "mainClass": "QLThuVien",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "TestThuVien",
+            "request": "launch",
+            "mainClass": "Test_thuvien.TestThuVien",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "b5",
+            "request": "launch",
+            "mainClass": "b5",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "thuvien",
+            "request": "launch",
+            "mainClass": "thuvien",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test_thisinh.Test",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test_sach.Test",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test_canbo.Test",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "testclass",
+            "request": "launch",
+            "mainClass": "testclass",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test.Test",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Testing.Test",
+            "projectName": "java_640af16b"
+        },
+        {
+            "type": "java",
+            "name": "testclass",
+            "request": "launch",
+            "mainClass": "oop.test.testclass",
+            "projectName": "java_640af16b"
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "pipeTransport": {
+                "pipeCwd": "${workspaceFolder}",
+                "pipeProgram": "enter the fully qualified path for the pipe program name, for example '/usr/bin/ssh'",
+                "pipeArgs": [],
+                "debuggerPath": "enter the path for the debugger on the target machine, for example ~/vsdbg/vsdbg"
+            }
+        },
+        {
+            "type": "pwa-msedge",
+            "name": "Launch Microsoft Edge",
+            "request": "launch",
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "url": "c:\\Users\\namta\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.3\\out\\startpage\\index.html",
+            "presentation": {
+                "hidden": true
+            }
+        },
+        {
+            "type": "pwa-msedge",
+            "name": "Launch Microsoft Edge in headless mode",
+            "request": "launch",
+            "runtimeArgs": [
+                "--headless",
+                "--remote-debugging-port=9222"
+            ],
+            "url": "c:\\Users\\namta\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.3\\out\\startpage\\index.html",
+            "presentation": {
+                "hidden": true
+            }
+        },
+        {
+            "type": "vscode-edge-devtools.debug",
+            "name": "Open Edge DevTools",
+            "request": "attach",
+            "url": "c:\\Users\\namta\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.3\\out\\startpage\\index.html",
+            "presentation": {
+                "hidden": true
+            }
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Launch Edge Headless and attach DevTools",
+            "configurations": [
+                "Launch Microsoft Edge in headless mode",
+                "Open Edge DevTools"
+            ]
+        },
+        {
+            "name": "Launch Edge and attach DevTools",
+            "configurations": [
+                "Launch Microsoft Edge",
+                "Open Edge DevTools"
+            ]
+        }
+    ]
+}
